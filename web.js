@@ -22,10 +22,10 @@ app.get("/TEACHERsignup.html",function (req, res) {
 })
 
 app.post("/",function (request,respond) {
-  var tname=request.body.username1; 
-  var tpass=request.body.password1;
-  var uname=request.body.username2;
-  var upass=request.body.password2;
+//   var tname=request.body.username1; 
+//   var tpass=request.body.password1;
+//   var uname=request.body.username2;
+//   var upass=request.body.password2;
 })
 app.post("/TEACHERsignup.html",function (req, res) {
                 var fname=req.body.firstname;
@@ -69,8 +69,8 @@ const request0= https.request(url,option,function (response) {
         var jj=JSON.parse(datao);
         console.log(jj);
     })
-    console.log(response.statuscode);
-    if(response.statusCode===200){
+    console.log(response.statusCode);
+    if(response.statusCode===200){ 
         // req.flash("sucess","SUCESSFULLY LOGGED IN");
        res.redirect("/");   
          
@@ -93,6 +93,6 @@ app.listen( process.env.PORT || 3000,function(){
 
 
 
-
+// ade4ad4ed61a7dec8abe1ac3a448886b-us18
 // 24597f9bb778463aa308af22a1cba1f9-us18
 //49ee85d817
